@@ -1,0 +1,41 @@
+:root {
+  color-scheme: light;
+  --display-font: "Syne", "Noto Sans SC", sans-serif;
+  --headline-font: "Noto Serif SC", "Songti SC", serif;
+  --body-font: "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --text-primary: #0e2238;
+  --text-secondary: #5f7388;
+  --text-muted: #6f8498;
+  --accent-cyan: #53c4ff;
+  --accent-lime: #bbf85f;
+  --accent-teal: #21c7b4;
+  --surface-primary: rgba(255, 255, 255, 0.88);
+  --surface-soft: rgba(247, 251, 255, 0.92);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--body-font);
+  color: var(--text-primary);
+  background: #f6fbff;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
